@@ -1,78 +1,76 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <link rel="stylesheet" href="css/style.css">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="author" content="Roman Pankov">
-
-  <title>Roman Pankov's Pasta Recipe</title>
+ <title>Roman Pankov's Pasta Recipe</title>
+ <link rel="stylesheet" href="css/style.css">
 </head>
+<body>
+<div class="wrapper">
+ <div>
+<h1>Roman Pankov's Pasta Recipe</h1>
+ <h2>Pasta</h2>
+ <p>Recipe by: Roman Pankov</p>
 
-<body style="font-family: Arial, sans-serif; color: #222; background-color: #f4efe9;">
+<figure>
+  <img src="pasta.jpg" alt="A plate of cooked pasta with sauce" height="250">
+  <figcaption>Image credit: Creative Commons licensed image</figcaption>
+</figure>
 
-  <h1>Roman Pankov's Pasta Recipe</h1>
+<h3>Ingredients</h3>
+ <ul>
+  <li>Pasta noodles</li>
+  <li>Tomato sauce</li>
+  <li>Salt</li>
+  <li>Olive oil</li>
+</ul>
+<h3 class="rate">Rate This Recipe</h3>
+ <fieldset>
+      <legend>How difficult is this recipe?</legend>
 
-  <h2>Pasta</h2>
+      <input type="radio" id="easy" name="difficulty">
+      <label for="easy">Easy</label><br>
 
-  <p>Recipe by: Roman Pankov</p>
+      <input type="radio" id="med" name="difficulty">
+      <label for="med">Intermediate</label><br>
 
-  <figure>
-    <img src="pasta.jpg" alt="A plate of cooked pasta with sauce" height="250">
-    <figcaption>Image credit: Creative Commons licensed image</figcaption>
-  </figure>
+      <input type="radio" id="hard" name="difficulty">
+      <label for="hard">Hard</label>
+    </fieldset>
 
-  <h3>Ingredients</h3>
-  <ul>
-    <li>Pasta noodles</li>
-    <li>Tomato sauce</li>
-    <li>Salt</li>
-    <li>Olive oil</li>
-  </ul>
-  
-  <h3 class="rate">Rate This Recipe</h3>
+    <p>&nbsp;</p>
 
-<fieldset style="width: 250px;">
-  <legend>How difficult is this recipe?</legend>
+    <!--
+    <h3>Equipment</h3>
+    <ul>
+      <li>Large pot</li>
+      <li>Stove</li>
+      <li>Strainer</li>
+    </ul>
+    -->
 
-  <input type="radio" id="easy" name="difficulty">
-  <label for="easy">Easy</label><br>
+    <h3>Conversion</h3>
 
-  <input type="radio" id="med" name="difficulty">
-  <label for="med">Intermediate</label><br>
+    <input type="text" id="tblspn" name="tblspn">
+    =
+    <input type="text" id="cups" name="cups">
+  </div>
 
-  <input type="radio" id="hard" name="difficulty">
-  <label for="hard">Hard</label>
-</fieldset>
-
-<p>&nbsp;</p>
-  <!--
-  <h3>Equipment</h3>
-  <ul>
-    <li>Large pot</li>
-    <li>Stove</li>
-    <li>Strainer</li>
-  </ul>
--->
-<h3>Conversion</h3>
-
- <input type="text" id="tblspn" name="tblspn">
-  =
- <input type="text" id="cups" name="cups">
-  <h3>Directions</h3>
-  <ol>
-    <li>Fill a pot with water and bring it to a boil.</li>
-    <li>Add salt and pasta to the boiling water.</li>
-    <li>Cook pasta according to package directions.</li>
-    <li>Drain the pasta and mix with sauce.</li>
-  </ol>
-
-  <hr>
-
-  <p style="text-align: right;">This page created as academic activity only.</p>
-
+  <div>
+    <h3>Directions</h3>
+    <ol>
+      <li>Fill a pot with water and bring it to a boil.</li>
+      <li>Add salt and pasta to the boiling water.</li>
+      <li>Cook pasta according to package directions.</li>
+      <li>Drain the pasta and mix with sauce.</li>
+    </ol>
+ <hr>
+  <p class="footer">This page created as academic activity only.</p>
+  </div>
+</div>
 </body>
-
 </html>
 
 
